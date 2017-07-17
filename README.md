@@ -9,6 +9,13 @@ In more technical words:
 
 Create a boilerplate Kubernetes deployment-service pair for a given container image.
 
+## Installing
+
+```
+go build
+sudo cp docker2kube /usr/local/bin/docker2kube
+```
+
 ## Usage
 
 ```
