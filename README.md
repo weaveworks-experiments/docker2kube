@@ -22,12 +22,13 @@ sudo cp docker2kube /usr/local/bin/docker2kube
 $ cd myprogram
 $ ls
 Dockerfile main.go
-$ docker build -t myprogram:v1 .
+$ docker build -t registry/myprogram:v1 .
 [...]
+$ docker push registry/myprogram:v1
 $ cd ..
 $ mkdir myprogram-config
 $ git init .
-$ docker2kube myprogram:v1
+$ docker2kube myprogram registry/myprogram:v1 80
 $ git add *.yaml
 $ git commit -am "Initial config"
 ```
