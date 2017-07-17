@@ -24,3 +24,9 @@ $ docker2kube myprogram:v1
 $ git add *.yaml
 $ git commit -am "Initial config"
 ```
+
+## What next?
+
+Once you've pushed Kubernetes config to a git repo, the practice known as _GitOps_ will help you get configs in version control reliably into a running application.
+
+TODO: link to a public doc about _GitOps_.
