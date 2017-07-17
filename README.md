@@ -3,7 +3,7 @@
 Go:
 
 * _from_ a Docker image for a program that runs on a port
-* _to_ the simplest Kubernetes possible config for that program
+* _to_ the simplest possible Kubernetes config that runs that program
 
 In more technical words:
 
